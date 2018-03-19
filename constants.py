@@ -1,4 +1,4 @@
-token = "489512699:AAFWd-qe2VLo6P6urCmJuLB8cpvOV6VW0lQ"
+token = ""
 description = "Пишите @sat_support_bot или @abekek"
 
 url_test_one = "https://drive.google.com/open?id=1Ls37K3bZLsi1f7rFyIuwsgYJ33GGc45S"
