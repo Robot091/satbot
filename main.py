@@ -3,6 +3,7 @@ import constants
 
 bot = telebot.TeleBot(constants.token)
 
+
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
@@ -93,6 +94,30 @@ def handle_text(message):
         url_essay_button = telebot.types.InlineKeyboardButton("Essay", constants.url_essay_six)
         url_answ_button = telebot.types.InlineKeyboardButton("Answers", constants.url_answ_six)
         url_exp_button = telebot.types.InlineKeyboardButton("Explanations", constants.url_exp_six)
+        inline_keyboard.add(url_test_button)
+        inline_keyboard.add(url_essay_button)
+        inline_keyboard.add(url_answ_button)
+        inline_keyboard.add(url_exp_button)
+        bot.send_message(message.from_user.id, "Вот кнопки для скачивания для " + message.text, reply_markup=inline_keyboard)
+
+    if message.text == "Practice Test 7":
+        inline_keyboard = telebot.types.InlineKeyboardMarkup()
+        url_test_button = telebot.types.InlineKeyboardButton("Test", constants.url_test_seven)
+        url_essay_button = telebot.types.InlineKeyboardButton("Essay", constants.url_essay_seven)
+        url_answ_button = telebot.types.InlineKeyboardButton("Answers", constants.url_answ_seven)
+        url_exp_button = telebot.types.InlineKeyboardButton("Explanations", constants.url_exp_seven)
+        inline_keyboard.add(url_test_button)
+        inline_keyboard.add(url_essay_button)
+        inline_keyboard.add(url_answ_button)
+        inline_keyboard.add(url_exp_button)
+        bot.send_message(message.from_user.id, "Вот кнопки для скачивания для " + message.text, reply_markup=inline_keyboard)
+
+    if message.text == "Practice Test 8":
+        inline_keyboard = telebot.types.InlineKeyboardMarkup()
+        url_test_button = telebot.types.InlineKeyboardButton("Test", constants.url_test_eight)
+        url_essay_button = telebot.types.InlineKeyboardButton("Essay", constants.url_essay_eight)
+        url_answ_button = telebot.types.InlineKeyboardButton("Answers", constants.url_answ_eight)
+        url_exp_button = telebot.types.InlineKeyboardButton("Explanations", constants.url_exp_eight)
         inline_keyboard.add(url_test_button)
         inline_keyboard.add(url_essay_button)
         inline_keyboard.add(url_answ_button)
