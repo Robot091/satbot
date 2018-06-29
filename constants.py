@@ -1,4 +1,4 @@
-token = ""
+token = "489512699:AAFWd-qe2VLo6P6urCmJuLB8cpvOV6VW0lQ"
 description = "Пишите @sat_support_bot или @abekek"
 
 url_test_one = "https://drive.google.com/open?id=1Ls37K3bZLsi1f7rFyIuwsgYJ33GGc45S"
@@ -31,6 +31,16 @@ url_essay_six = "https://drive.google.com/open?id=13sijhCeutl020ewk3pthtcG4se7l5
 url_answ_six = "https://drive.google.com/open?id=1PC6VkyAUmZLRBLpSLi71ppmykz6FIv7Y"
 url_exp_six = "https://drive.google.com/open?id=1Cg6RAZN5LXeKstqKoTe5MDSKetHZdx_L"
 
+url_test_seven = "https://drive.google.com/open?id=1u_2JAhOnO1WmJyH6-pwjnR8rRjFvkkqk"
+url_essay_seven = "https://drive.google.com/open?id=10e4vDSbpzuvVbCkF3_jpzuBW4HqP4TD3"
+url_answ_seven = "https://drive.google.com/open?id=1eW1BYhcXGkvfHKhaha3TIFU9sxi7QNYd"
+url_exp_seven = "https://drive.google.com/open?id=14rLk84aEUAwxRFz_T6QyAnP1wtcFDDmh"
+
+url_test_eight = "https://drive.google.com/open?id=1vUzmvxq3CrstWTI4HQWn9DTzv9MtOj7D"
+url_essay_eight = "https://drive.google.com/open?id=1iPpxgG9bHqAPLTezw3FA5-m7jYPgceu0"
+url_answ_eight = "https://drive.google.com/open?id=1pnQXJ5QP2Par9YHJ1YPqM8Xk53tdiQyN"
+url_exp_eight = "https://drive.google.com/open?id=1LmVO4-UtXNoJbiFnJvmCqCqgTUwg4wz4"
+
 url_book_one = "https://drive.google.com/open?id=13zbhb9WFDn7RDrzhQTznPta7GDhfP3zq"
 url_book_two = "https://drive.google.com/file/d/1Iy83DdBjhAP5aF0Wp_uzjTFmE01tMtBw/view?usp=drivesdk"
 url_book_three = "https://drive.google.com/file/d/14Hc9gA1g9WMH2xR8zZWqkv1epB7x-tID/view?usp=drivesdk"
@@ -43,3 +53,6 @@ url_book_nine = "https://drive.google.com/file/d/1L20E-xDQ1x0k6HfMKVXuk6jzz2g5Gm
 
 one = "1"
 two = "2"
+
+words_array = ["abate", "abridge", "abstract", "abstruse", "academic", "accessible", "acclaim"]
+words_translate_array = ["ослаблять", "сокращать", "абстрактный", "сложный для понимания", "академический", "доступный", "превозглашать"]
